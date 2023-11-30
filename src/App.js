@@ -1,15 +1,18 @@
 import styled from "@emotion/styled";
+import "./styles/index.css";
+import "./styles/App.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
-  const TopBar = styled.header``;
   return (
-    <div className="layout">
+    <div className="Layout">
       <div className="wrap">
-        <TopBar>
-          <button>
-            <img src="images/tbt_list.svg" />
-          </button>
-        </TopBar>
+        <Header></Header>
+
+        <mian></mian>
+
+        <Footer></Footer>
       </div>
     </div>
   );
